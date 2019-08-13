@@ -1,6 +1,7 @@
 ---
 title: "The mystery of docker & .pyc"
 date: 2019-08-13T04:05:41+03:00
+tags: [linux, debug]
 ---
 ## Docker containers are the same, right?
 Once upon a time developers showed me strange problem. There were trying to obfuscate python code by compiling .py files (python code) to .pyc files (python compiled bytecode) the problem was that client could not run this .pyc files although it worked on dev host (work on my machine). Turns out that devs were trying to run .pyc file like this:
