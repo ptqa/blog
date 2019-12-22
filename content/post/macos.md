@@ -41,6 +41,7 @@ Recently I've joined new company and they have me Macbook Pro 15' with touchbar 
 * Utils that are there are not the same utils I got used to. For some reason MacOS decided not use GNU utils, so sed & awk syntax is different. I know that I can install gnu utils and do symlinks, but I don't think it worth it.
 * No hardware Esc key. As vim user I can't stand it.
 * No copy-on-selection & paste-middle-click. In X-Windows there is separate copy-paste buffer for mouse. There is a feature in iTerm, but it works only for iTerm, you can't copy paster from/to browser. There is a software like macpaste, that allows you to do copy-on-selection & paste-middle-click, but it just spams Cmd+C on selection and Cmd+V on paste, which causes problems with some other software. And ofc it doesn't have separate buffer.
+* No native docker. Since docker for MacOS is using Virtual machine, instead of getting lightweight & fast container you get VM overhead. Also since it's using virtual network you can't utilize network properly and connect to docker container IP directly.
 
 
 After 2 months of suffering I've asked for PC laptop and installed Linux.
